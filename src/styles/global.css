@@ -11,4 +11,8 @@
 
 :root {
   --white: #FFF;
+  --transparent: transparent;
+  --background: #E8FAD9;
+  --darkGreen: #41493B;
+  --green: #61A039;
 }

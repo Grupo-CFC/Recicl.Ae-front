@@ -1,1 +1,45 @@
 @import url('global.css');
+@import url('responsive.css');
+
+html { background-color: var(--background); }
+
+nav > .container-fluid { padding: 0 25px 0 25px; }
+
+.navbar { background-color: transparent; }
+
+.brand-color { 
+  font-family: 'Manrope', sans-serif;
+  color: var(--darkGreen) !important; 
+}
+
+.navbar-toggler { border:none !important; }
+
+.nav-link { color: var(--darkGreen) !important; }
+
+.nav-link:hover { color: var(--green) !important; }
+
+.btnRecicle { color: var(--green) !important; }
+
+.btnRecicle-link {color: var(--green) !important;}
+
+.btnRecicle { 
+  color: var(--green);
+  padding: 0 20px;
+  border: 2px solid var(--green);
+  border-radius: 50px; 
+  background-color: var(--transparent);
+  margin: 10px 0 10px 0;
+}
+
+.btnRecicle:hover {
+  background-color: var(--green);
+}
+
+.btnRecicle-link:hover { 
+  color: var(--white) !important; 
+  font-weight: 500;
+}
+
+.offcanvas-header { justify-content: flex-end !important; }
+
+.offcanvas-body { text-align: center; }
