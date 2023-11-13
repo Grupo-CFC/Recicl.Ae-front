@@ -12,25 +12,23 @@
 </head>
 <body>
 
-  <nav class="navbar fixed-top"> <!-- navbar-expand-lg -->
+  <nav class="navbar fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand brand-color" href="#">Recicl.Ae</a>
+      <a class="navbar-brand brand-color" href="./index.html">Recicl.Ae</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header justify-content-end">
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
+        <div class="offcanvas-body text-center">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <button class="btnRecicle">
-                <a class="nav-link btnRecicle-link" href="#">Reciclar</a>
-              </button>
+            <li class="nav-item nav-recicle">              
+              <a class="btnRecicle btnRecicle-link nav-link" href="./src/pages/Recicle-page/index.html">Reciclar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Acesso restrito</a>
@@ -41,16 +39,16 @@
     </div>
   </nav>
 
-  <section class="cta">
-    <div class="cta-left container">
+  <section class="cta text-center">
+    <div class="cta-left container pt-3">
       <div class="cta-desc">
-        <h1>Junte-se a Revolução da Reciclagem</h1>
-        <p>Vamos trabalhar juntos para criar um impacto positivo</p>
+        <h1 class="display-1 mx-auto pt-5 text-wrap">Junte-se a Revolução da Reciclagem</h1>
+        <p class="fs-5 pt-3 pb-5 pe-1 ps-1 text-wrap">Vamos trabalhar juntos para criar um impacto positivo</p>
       </div>
 
-      <button>Reciclar</button>
+      <a class="btnRecicle btnRecicle-link nav-link" href="./src/pages/Recicle-page/index.html">Reciclar</a>
     </div>
-    <div class="cta-right"></div>
+    <span class="cta-right"></span>
   </sectionc>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
