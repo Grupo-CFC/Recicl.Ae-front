@@ -40,8 +40,8 @@ nav > .container-fluid { padding: 0 25px 0 25px; }
 
 .cta-left > .btnRecicle {
   box-shadow:
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-  100px 100px 80px rgba(0, 0, 0, 0.07) ;
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.185),
+  100px 100px 80px rgba(0, 0, 0, 0.2);
 }
 
 .cta-desc > h1 { font-family: 'Manrope', sans-serif; }
