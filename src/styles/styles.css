@@ -18,6 +18,8 @@ nav > .container-fluid { padding: 0 25px 0 25px; }
 
 .nav-link:hover { color: var(--green) !important; }
 
+.nav-link.disabled { color: var(--greyDisabled) !important; }
+
 .btnRecicle {
   display: inline !important;
   padding: 12px 35px !important;
@@ -27,7 +29,7 @@ nav > .container-fluid { padding: 0 25px 0 25px; }
   border-radius: 50px; 
 }
 
-.nav-recicle { margin: 10px 0 10px 0; }
+.nav-recicle { margin: 15px 0 15px 0; }
 
 .btnRecicle:hover { background-color: var(--transparent) !important; }
 
