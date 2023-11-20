@@ -1,0 +1,75 @@
+@import url("/src/styles/styles.css");
+
+.recicle-content {
+  display: flex;
+  height: 100vh;
+}
+
+.img-content img { width: 500px; }
+
+legend {
+  font-family: 'Manrope', sans-serif;
+  color: var(--darkGreen) !important; 
+  padding-bottom: calc(24px + 6 * ((100vw - 320px) / 680)) !important;
+}
+
+#input-ra {
+  padding: 12px;
+  margin: 5px 0 15px 0;
+}
+
+.input-group { margin-bottom: 10px; }
+
+button .i-arrow {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url('/src/images/icons/seta.png') no-repeat center center;
+  background-size: contain;
+}
+
+button:hover .i-arrow { 
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url('/src/images/icons/seta-verde.png') no-repeat center center;
+  background-size: contain;
+}
+
+.recicle-info { padding-top: 50px; }
+
+.recicle-info > p, span {
+  color: var(--darkGreen);
+  font-size: .7rem;
+  margin: 0;
+}
+
+.recicle-info > p span { 
+  font-family: 'Manrope', sans-serif;
+  color: var(--green);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-toggler { color: var(--darkGreen) !important; }
+
+  .navbar-toggler-icon {
+    color: var(--darkGreen);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .recicle-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  legend { display: none; }
+}
+
+@media screen and (max-width: 575px) {
+  .btnRecicle { padding: 12px 15px !important; }
+}
