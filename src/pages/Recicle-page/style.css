@@ -38,6 +38,8 @@ button:hover .i-arrow {
 
 .recicle-info { padding-top: 50px; }
 
+.recicle-info { visibility: hidden; } /* Função ainda não criada */
+
 .recicle-info > p, span {
   color: var(--darkGreen);
   font-size: .7rem;
