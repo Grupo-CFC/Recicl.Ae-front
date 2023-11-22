@@ -1,1 +1,26 @@
-@import url('/src/styles/global.css');
+@import url("/src/styles/styles.css");
+
+body { 
+  height: 100vh;
+  background-color: var(--background) !important; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card { max-width: 500px; }
+
+.card-body p {
+  font-family: 'Manrope', sans-serif;
+  color: var(--darkGreen);
+}
+
+.card-body p span {
+  color: var(--green);
+  font-weight: 700;
+}
+
+#qrcodeImg {
+  width: 100%;
+  padding: 20px;
+}
