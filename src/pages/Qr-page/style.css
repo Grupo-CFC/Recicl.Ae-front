@@ -13,10 +13,14 @@ body {
 .card-body p {
   font-family: 'Manrope', sans-serif;
   color: var(--darkGreen);
-  font-size: calc(14px + 6 * ((100vw - 320px) / 680));
 }
 
 .card-body p span {
   color: var(--green);
   font-weight: 700;
+}
+
+#qrcodeImg {
+  width: 100%;
+  padding: 20px;
 }
